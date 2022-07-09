@@ -15,8 +15,8 @@ const HEADERS_INFO=[
 const FORCE_HTTPS=true;
 if(FORCE_HTTPS && location.protocol==='http:')
 	location.href=window.location.href.replace('http:','https:');
-else if(location.protocol==='https:' && 'serviceWorker' in navigator && window.location.hostname==='www.marcrobledo.com')
-	navigator.serviceWorker.register('/RomPatcher.js/_cache_service_worker.js', {scope: '/RomPatcher.js/'});
+else if(location.protocol==='https:' && 'serviceWorker' in navigator && window.location.hostname==='patch.radicalred.net')
+	navigator.serviceWorker.register('/_cache_service_worker.js', {scope: '/'});
 
 
 
@@ -547,7 +547,7 @@ function validateSource(){
 			setMessage('apply');
 		}else{
 			el('crc32').className='invalid';
-			setMessage('apply', 'error_crc_input', 'warning');
+			setMessage('apply', 'error_crc_input', 'error');
 		}
 	}else{
 		el('crc32').className='';
@@ -823,7 +823,7 @@ function setTabCreateEnabled(status){
 function setTabApplyEnabled(status){
 	setElementEnabled('input-file-rom', status);
 	setElementEnabled('input-file-patch', status);
-	if(romFile && status && (patch || isCustomPatcherEnabled())){
+	if(romFile && status && el('crc32').className!=='invalid' && (patch || isCustomPatcherEnabled())){
 		setElementEnabled('button-apply', status);
 	}else{
 		setElementEnabled('button-apply', false);
