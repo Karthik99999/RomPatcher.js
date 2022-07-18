@@ -80,7 +80,7 @@ var ZIPManager=(function(){
 									customPatch.patches.push({
 										file:filteredEntries[i].filename,
 										fetchedFile:false,
-										name:customPatch.name + ' - ' + filteredEntries[i].filename,
+										name:customPatch.name,
 										crc:customPatch.crc
 									});
 									
