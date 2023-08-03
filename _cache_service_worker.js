@@ -14,7 +14,7 @@
 */
 
 var PRECACHE_ID='rom-patcher-js';
-var PRECACHE_VERSION='v400';
+var PRECACHE_VERSION='v4000';
 var PRECACHE_URLS=[
 	'/','/index.html',
 	'/manifest.json',
