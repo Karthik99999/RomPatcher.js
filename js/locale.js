@@ -3,6 +3,7 @@ const LOCALIZATION={
 		'creator_mode':				'Creator mode',
 		'settings':					'Settings',
 		'alternate_output_name':	'Use patch name for output',
+		'fix_checksum':				'Fix ROM header checksum',
 		'light_theme':				'Light theme',
 
 		'apply_patch':				'Apply patch',
@@ -14,6 +15,7 @@ const LOCALIZATION={
 		'applying_patch':			'Applying patch...',
 		'downloading':				'Downloading...',
 		'unzipping':				'Unzipping...',
+		'fix_checksum_prompt':		'Fix ROM header checksum?',
 
 		'create_patch':				'Create patch',
 		'original_rom':				'Original ROM:',
@@ -33,6 +35,7 @@ const LOCALIZATION={
 		'creator_mode':				'Modo creador',
 		'settings':					'Configuración',
 		'alternate_output_name':	'Guardar con nombre del parche',
+		'fix_checksum':				'Corregir checksum cabecera ROM',
 		'light_theme':				'Tema claro',
 
 		'apply_patch':				'Aplicar parche',
@@ -44,6 +47,7 @@ const LOCALIZATION={
 		'applying_patch':			'Aplicando parche...',
 		'downloading':				'Descargando...',
 		'unzipping':				'Descomprimiendo...',
+		'fix_checksum_prompt':		'¿Corregir checksum en la cabecera de la ROM?',
 
 		'create_patch':				'Crear parche',
 		'original_rom':				'ROM original:',
@@ -242,33 +246,35 @@ const LOCALIZATION={
 	},
 	'pt-br':{
 		'creator_mode':				'Modo criador',
-		'settings':					'Settings',
-		'alternate_output_name':	'Use patch name for output',
-		'light_theme':				'Light theme',
+		'settings':					'Configurações',
+		'alternate_output_name':	'Usar o nome do patch na saída',
+		'fix_checksum':				'Consertar o checksum do cabeçalho da ROM',
+        'light_theme':				'Tema leve',
 
 		'apply_patch':				'Aplicar patch',
-		'rom_file':					'Arquivo ROM:',
-		'patch_file':				'Arquivo de patch:',
-		'remove_header':			'Remover header',
-		'add_header':				'Adicionar header temporário',
+		'rom_file':					'Arquivo da ROM:',
+		'patch_file':				'Arquivo do patch:',
+		'remove_header':			'Remover cabeçalho',
+		'add_header':				'Adicionar cabeçalho temporário',
 		'compatible_formats':		'Formatos compatíveis:',
 		'applying_patch':			'Aplicando patch...',
 		'downloading':				'Baixando...',
-		'unzipping':				'Extraindo...',
+		'unzipping':				'Descompactando...',
+        'fix_checksum_prompt':		'Consertar o checksum do cabeçalho da ROM?',
 
 		'create_patch':				'Criar patch',
 		'original_rom':				'ROM original:',
 		'modified_rom':				'ROM modificada:',
-		'patch_type':				'Tipo do patch:',
-		'creating_patch':			'Criando patch...',
+		'patch_type':				'Tipo de patch:',
+		'creating_patch':			'Criando o patch...',
 
-		'error_crc_input':			'Checksum da ROM original inválido',
-		'error_crc_output':			'Checksum da ROM modificada inválido',
-		'error_crc_patch':			'Checksum do patch inválido',
-		'error_downloading':		'Erro ao baixar patch, tente novamente',
-		'error_unzipping':			'Erro ao extrair arquivo',
-		'error_invalid_patch':		'Patch inválido',
-		'warning_too_big':			'Uso de arquivos muito grandes não recomendado.'
+		'error_crc_input':			'O checksum da ROM original é inválido',
+		'error_crc_output':			'O checksum da ROM alvo é inválido',
+		'error_crc_patch':			'O checksum do patch é inválido',
+		'error_downloading':		'Erro ao baixar o %s',
+		'error_unzipping':			'Erro ao descompactar o arquivo',
+		'error_invalid_patch':		'Arquivo do patch inválido',
+		'warning_too_big':			'O uso de arquivos grandes não é recomendado.'
 	},
 	'ja':{
 		'creator_mode':				'作成モード',
@@ -360,6 +366,37 @@ const LOCALIZATION={
 		'error_invalid_patch':		'无效补丁',
 		'warning_too_big':			'不推荐使用大文件。'
 	},
+	'zh-tw':{
+		'creator_mode':             '創作者模式',
+		'settings':                 '設定',
+		'alternate_output_name':    '修改後ROM檔名和patch保持一致',
+		'fix_checksum':             '修正ROM檔頭校驗碼',
+		'light_theme':              '淺色主題',
+
+		'apply_patch':				'套用patch',
+		'rom_file':					'ROM檔：',
+		'patch_file':				'patch檔：',
+		'remove_header':			'刪除檔頭',
+		'add_header':				'增加臨時檔頭',
+		'compatible_formats':		'相容格式：',
+		'applying_patch':			'套用patch中……',
+		'downloading':				'下載中……',
+		'unzipping':				'解壓中……',
+
+		'create_patch':				'創建patch',
+		'original_rom':				'原始ROM：',
+		'modified_rom':				'修改後ROM：',
+		'patch_type':               'patch類型：',
+		'creating_patch':           '正在創建patch……',
+
+		'error_crc_input':          '原始ROM校驗碼不匹配',
+		'error_crc_output':         '目標ROM校驗碼不匹配',
+		'error_crc_patch':          'patch檔校驗碼不匹配',
+		'error_downloading':        '下載出錯：%s',
+		'error_unzipping':          '解壓出錯',
+		'error_invalid_patch':      '無效的patch',
+		'warning_too_big':          '不建議使用大檔。'
+	},	
 	'it':{
 		'creator_mode':				'Modalità creatore',
 		'settings':					'Impostazioni',

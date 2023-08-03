@@ -41,7 +41,8 @@ var PRECACHE_URLS=[
 	'/js/zip.js/inflate.js',
 	'/js/formats/ips.js',
 	'/js/formats/ups.js',
-	'/js/formats/aps.js',
+	'/js/formats/aps_n64.js',
+	'/js/formats/aps_gba.js',
 	'/js/formats/bps.js',
 	'/js/formats/rup.js',
 	'/js/formats/ppf.js',
@@ -60,7 +61,10 @@ var PRECACHE_URLS=[
 	'/patches/2.2b.zip',
 	'/patches/2.3.zip',
 	'/patches/2.3a.zip',
-	'/patches/3.0.zip'
+	'/patches/3.0.zip',
+	'/patches/3.01.zip',
+	'/patches/3.02.zip',
+	'/patches/3.1.zip'
 ];
 
 
