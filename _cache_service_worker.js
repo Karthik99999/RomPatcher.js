@@ -13,8 +13,8 @@
 	navigator.serviceWorker.register('/repo/_cache_service_worker.js', {scope: '/repo/'})
 */
 
-var PRECACHE_ID='rom-patcher-js';
-var PRECACHE_VERSION='v4000';
+var PRECACHE_ID='radical-red-patcher';
+var PRECACHE_VERSION='v4.1';
 var PRECACHE_URLS=[
 	'/','/index.html',
 	'/manifest.json',
@@ -66,6 +66,7 @@ var PRECACHE_URLS=[
 	'/patches/3.02.zip',
 	'/patches/3.1.zip',
 	'/patches/4.0.zip',
+	'/patches/4.1.zip',
 ];
 
 
