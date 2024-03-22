@@ -66,6 +66,7 @@ var PRECACHE_URLS=[
 	'/patches/3.02.zip',
 	'/patches/3.1.zip',
 	'/patches/4.0.zip',
+	'/patches/4.1.zip',
 ];
 
 
