@@ -14,7 +14,7 @@
 */
 
 var PRECACHE_ID='radical-red-patcher';
-var PRECACHE_VERSION='v4.1';
+var PRECACHE_VERSION='v4.1-fix';
 var PRECACHE_URLS=[
 	'/','/index.html',
 	'/manifest.json',
